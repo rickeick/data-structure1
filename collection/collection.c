@@ -1,4 +1,3 @@
-// Rick Eick Vieira Dos Santos
 #ifndef _COLLECTION_C_
 #define _COLLECTION_C_
 #include <malloc.h>
