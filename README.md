@@ -1,6 +1,6 @@
-# Data-Structure
+# Data Structure I
 
-Meus trabalhos de implementações de Estrutura de Dados I, professor Anselmo de Paiva, curso Ciência da Computação - UFMA
+Meus trabalhos de implementações de Estrutura de Dados I, professor Anselmo de Paiva, do curso de Ciência da Computação - UFMA
 
 ## Tipos Abstrato de Dados (TAD)
 - Student: TAD que representa um aluno com nome, matricula e nota.

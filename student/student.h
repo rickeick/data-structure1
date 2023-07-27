@@ -17,6 +17,6 @@ int getRegistry(Student *stu);
 
 float getGrade(Student *stu);
 
-int stuFree(void *a);
+int stdFree(void *a);
 
 #endif
