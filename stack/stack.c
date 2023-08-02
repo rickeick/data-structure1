@@ -62,6 +62,21 @@ void *stkTop(Stack *stk) {
     return NULL;
 }
 
+int stkQuery(Stack *stk, void *item, int (*cmp)(void *, void *)) {
+    int stat;
+    if (stk != NULL) {
+        if (stk->top >= 0) {
+            for (int i=0; i<stk->top+1; i++) {
+                stat = cmp(stk->item[i], item);
+                if (stat == TRUE) {
+                    return TRUE;
+                }
+            }
+        }
+    }
+    return FALSE;
+}
+
 int stkIsFull(Stack *stk) {
     if (stk != NULL) {
         if (stk->top >= stk->maxItens-1) {

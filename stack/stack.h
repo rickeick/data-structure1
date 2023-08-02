@@ -11,6 +11,8 @@ void *stkPop(Stack *stk);
 
 void *stkTop(Stack *stk);
 
+int stkQuery(Stack *stk, void *item, int (*cmp)(void *, void *));
+
 int stkIsFull(Stack *stk);
 
 int stkIsEmpty(Stack *stk);
